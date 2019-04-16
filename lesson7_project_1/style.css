@@ -1,0 +1,103 @@
+@charset "UTF-8";
+/* CSS Document created by Haley Brown, Spring 2019*/
+
+body {
+    font-family: courier; 
+    font-size: 15px;
+    line-height: 1.6em;
+    color: #FFFFFF;
+    background-color: #9E9E9E;
+    padding: 0 40px;
+}
+
+/*basic text styles ---------------------------- */
+p, td, li {
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    font-family: sans-serif
+}
+h1 {
+    font-size: 50px;
+    padding: 4px 0;
+    font-variant: small-caps;
+}
+h2 {
+    font-size: 35px;
+    padding: 6px;
+    font-variant: small-caps;
+    letter-spacing: 0.01em;
+    background-color: #FFB4F8;
+    text-align: center
+    
+}
+h3 {
+    font-size: 28px;
+    border-bottom-width: 1px;
+    border-bottom-style: inset;
+    border-color: #FFB4F8;
+    padding: 4px 0;
+    font-variant: small-caps;
+    font-style: italic;
+}
+
+/* link styles ---------------------------- */
+a:link {
+    font-weight: bold;
+    color: #FFB4F8;
+    text-decoration: none;
+}
+a:visited {
+    font-weight: bolder;
+    color: #FFB4F8;
+    text-decoration: none;
+}
+a:hover {
+    color: #000000;
+}
+
+/* list styles ----------------------------- */
+ul li {
+	list-style-image: url(images/star.png);
+	margin-left: 12px;
+}
+ol {
+	margin-left: 14px;
+}
+
+/* table styles -------------------------------------- */
+table {
+	border: solid #000000 3px;
+}
+td {
+	padding: 6px;
+	border: solid #FFB4F8 1px;
+}
+th {
+	font-weight: bold;
+	background-color: #FFB4F8;
+	text-align: center;
+	padding: 6px;
+	border: solid #FFB4F8 1px;
+}
+
+/* border styles ------------------------------------ */
+hr {
+	border: double #FFB4F8 1px;
+}
+
+img {
+	border: solid #FFB4F8 1px;
+
+}
+
+iframe {
+	border: solid #FFB4F8 1px;
+	padding: 8px;
+	margin: 8px;
+}
+h2{
+    border:dotted #FFFFFF;
+    padding: 3px;
+}
+
+
