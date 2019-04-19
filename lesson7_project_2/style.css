@@ -1,0 +1,32 @@
+@charset "UTF-8";
+/* CSS Document created by Haley Brown, Spring 2019*/
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#splash{
+    background-color: #FFFFFF;
+    height: 1000px;
+}
+
+#overview{
+    background-color: #BF3945;
+    height: 1000px;
+}
+
+#video{
+    background-color: #F2BBBF;
+    height: 1000px;
+}
+
+#author{
+    background-color: #400711;
+    height: 1000px;
+}
+
+#footer{
+    background-color: #F28888;
+    height: 1000px;
+}
